@@ -1,0 +1,16 @@
+.ratecardcomp-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 10px 60px 10px;
+}
+.first-div{
+  margin-top: 0px;
+}
+@media (max-width:1024) {
+  .ratecardcomp-cont{
+    flex-wrap: wrap;
+  }
+}

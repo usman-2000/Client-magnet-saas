@@ -1,0 +1,118 @@
+.service-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+.service-first-cont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: start;
+  padding: 30px;
+}
+.service-first-cont h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 61px;
+  text-align: start;
+  color: #130b46;
+}
+.service-first-cont p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 145% */
+  text-align: start;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  margin: 20px 0px 20px 0px;
+  color: #323b71;
+}
+
+.service-second-cont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+.service img {
+  width: 60px;
+  height: 60px;
+}
+.service p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 29px;
+  /* or 145% */
+  text-align: start;
+  margin-left: 20px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+
+  color: #323b71;
+}
+@media (max-width: 1024px) {
+  .service-first-cont {
+    width: 100%;
+  }
+  .service-second-cont {
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .service-first-cont {
+    width: 100%;
+    padding: 30px;
+  }
+  .service-first-cont h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 51px;
+  }
+  .service-first-cont p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .service-second-cont {
+    width: 100%;
+    padding: 20px;
+  }
+  .service {
+    margin: 0px 0px 20px 0px;
+  }
+  .service img {
+    width: 40px;
+    height: 40px;
+  }
+  .service p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: start;
+    margin-left: 20px;
+    letter-spacing: 0.2px;
+  }
+}

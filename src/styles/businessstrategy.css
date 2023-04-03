@@ -1,0 +1,209 @@
+.business-cont {
+  background-image: url("../images/Saass3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  margin: 100px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 300px; */
+}
+.business-cont h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 60px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: -0.03em;
+
+  color: #130b46;
+}
+.main-p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 150% */
+  width: 450px;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #64607d;
+}
+.business-card-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.business-card-cont div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+  border-radius: 20px;
+  /* border: 1px solid #130b46; */
+  background-color: white;
+  padding: 35px;
+  margin: 10px;
+}
+.business-card-cont div img {
+  width: 32px;
+  height: 32px;
+}
+.business-card-cont div h3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 60px;
+  /* identical to box height, or 250% */
+
+  letter-spacing: -0.03em;
+
+  color: #16012c;
+}
+.business-card-cont div p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 188% */
+  text-align: start;
+  letter-spacing: -0.02em;
+  color: #64607d;
+}
+.business-card-cont div a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 100% */
+  color: #000000;
+}
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .business-card-cont div {
+    width: 280px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .business-card-cont div img {
+    width: 30px;
+    height: 30px;
+  }
+  .business-card-cont div h3 {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .business-card-cont div p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .business-card-cont div a {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .business-cont h1 {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    margin-top: 40px;
+  }
+  .main-p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 450px;
+  }
+  .business-card-cont {
+    margin-top: 15px;
+    flex-wrap: wrap;
+  }
+  .business-card-cont div {
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .business-card-cont div img {
+    width: 30px;
+    height: 30px;
+  }
+  .business-card-cont div h3 {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .business-card-cont div p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .business-card-cont div a {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .business-cont h1 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .main-p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    width: 300px;
+  }
+  .business-card-cont div {
+    width: 170px;
+    padding: 7px;
+    margin: 5px;
+  }
+  .business-card-cont div img {
+    width: 25px;
+    height: 25px;
+  }
+  .business-card-cont div h3 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 38px;
+  }
+  .business-card-cont div p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .business-card-cont div a {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .business-card-cont div {
+    width: 80%;
+  }
+}

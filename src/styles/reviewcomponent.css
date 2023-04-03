@@ -1,0 +1,114 @@
+.review-main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+.review-main-cont h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 114%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #212121;
+}
+.review-main-cont-para {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #757575;
+}
+.review-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.review-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px 10px 30px;
+}
+.review-card-para {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  width: 290px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #424242;
+}
+.reviewer-image {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.reviewer-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13 px;
+  line-height: 17px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #757575;
+}
+
+@media (max-width: 698px) {
+  .review-main-cont h1 {
+    font-size: 36px;
+    line-height: 114%;
+  }
+  .review-main-cont-para {
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .review-card-para {
+    font-size: 15px;
+    line-height: 32px;
+  }
+  .reviewer-name {
+    font-size: 10px;
+    line-height: 17px;
+  }
+}
+@media (max-width: 480px) {
+  .review-main-cont h1 {
+    font-size: 30px;
+    line-height: 114%;
+    font-weight: 600;
+  }
+  .review-main-cont-para {
+    font-size: 13px;
+    line-height: 27px;
+  }
+  .review-card-para {
+    font-size: 15px;
+    line-height: 32px;
+  }
+  .reviewer-name {
+    font-size: 8px;
+    line-height: 17px;
+  }
+  .review-card {
+    margin-top: 15px;
+  }
+}
